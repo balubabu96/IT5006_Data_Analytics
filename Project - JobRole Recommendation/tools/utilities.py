@@ -26,12 +26,6 @@ dv_tools_list = ['Matplotlib', 'Seaborn','Ploty','Ggplot','Shiny','D3','Altair',
 
 def load_css():
 
-    st.set_page_config(
-        page_title="IT5006",
-        page_icon="favicon.ico",
-        layout="wide"
-    )
-
     with open("tools/style.css") as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
