@@ -1,12 +1,1 @@
 streamlit
-numpy
-pandas
-matplotlib
-scikit-learn
-statistics
-scipy
-seaborn
-altair
-pathlib
-requests
-Pillow
