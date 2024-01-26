@@ -6,3 +6,17 @@ streamlit-javascript==0.1.5
 natsort==8.4.0
 streamlit-aggrid==0.3.4
 numpy
+pandas
+matplotlib
+sklearn
+statistics
+scipy
+seaborn
+tools
+views
+json
+altair
+pathlib
+requests
+PIL
+
