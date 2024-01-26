@@ -6,9 +6,6 @@ sklearn
 statistics
 scipy
 seaborn
-tools
-views
-json
 altair
 pathlib
 requests
