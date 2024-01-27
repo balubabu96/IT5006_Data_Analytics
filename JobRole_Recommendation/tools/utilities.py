@@ -19,7 +19,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.feature_selection import SelectFromModel
-import os
+#import os
 
 pl_list = ['Python', 'R', 'SQL', 'C' , 'C++', 'Java', 'Javascript', 'Julia', 'Bash', 'MATLAB', 'Other Lang']
 dv_tools_list = ['Matplotlib', 'Seaborn','Ploty','Ggplot','Shiny','D3','Altair','Bokeh','Geoplotlib','Leaflet','Other Vis']
@@ -41,7 +41,7 @@ def generate_download_link(csv_data, filename):
     
 @st.cache_data    
 def load_data(file):
-    print("Current Working Directory inside load_data function:", os.getcwd())
+    #print("Current Working Directory inside load_data function:", os.getcwd())
     data = pd.read_csv(file)
     data = pd.DataFrame(data)
 
