@@ -6,9 +6,6 @@ from views.project import Project
 from views.recommender import Recommender
 from views.stats import Stats
 from views.about import About
-import os
-
-print("Current Working Directory in the app.py file:", os.getcwd())
 
 load_css()
 
